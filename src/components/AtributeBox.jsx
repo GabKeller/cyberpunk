@@ -1,15 +1,15 @@
 import React from 'react'
-import forca from './assets/atributos/forca.png'
-import con from  './assets/atributos/constituicao.png'
-import dex from './assets/atributos/destreza.png'
-import agi from './assets/atributos/agilidade.png'
-import psique from './assets/atributos/psique.png'
-import int from './assets/atributos/inteligencia.png'
+import forca from '../assets/atributos/forca.png'
+import con from  '../assets/atributos/constituicao.png'
+import dex from '../assets/atributos/destreza.png'
+import agi from '../assets/atributos/agilidade.png'
+import psique from '../assets/atributos/psique.png'
+import int from '../assets/atributos/inteligencia.png'
 
 const AtributeBox = ({atributo,value, handleChange}) => {
   let mod = Math.floor(value/2-5)
   return (
-    <div className=" m-4 w-22 h-28 border-r-2 border-l-2 border-cyberYellow bg-primary2 rounded-md flex flex-col justify-between items-center">
+    <div className=" ml-2 mr-2 w-22 h-28 border-r-2 border-l-2 border-cyberBlue bg-primary2 rounded-md flex flex-col justify-between items-center">
             <p className='text-white font-Orbitron'>{atributo}</p>
             {atributo ==='FOR' && (
             <i><img className="h-7" src={forca} alt="icon-strength"/></i>)}

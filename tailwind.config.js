@@ -16,6 +16,7 @@ export default {
         primary3: "#0b0b0b",
         primary4: "#101010",
         cyberYellow: "rgba(252,238,10,255)",
+        cyberYellowSecondary: "rgba(0,0,0,0.2)",
         cyberBlue: "#02d7f2",
         cyberBlueShine: "rgb(110,220,255)",
         cyberGreen: "#1afe49",
